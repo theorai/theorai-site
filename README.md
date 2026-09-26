@@ -1,4 +1,4 @@
-# theorai.ca
+# theorai.ai
 
 Website for Theorai Inc., an independent software studio in Toronto, Canada.
 

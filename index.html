@@ -8,9 +8,9 @@
 <meta property="og:title" content="Theorai">
 <meta property="og:description" content="From theory to life. We build AI that does more with less of your data.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://theorai.ca/">
+<meta property="og:url" content="https://theorai.ai/">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="canonical" href="https://theorai.ca/">
+<link rel="canonical" href="https://theorai.ai/">
 <title>Theorai</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -220,7 +220,7 @@ footer{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;paddin
 
   <section class="contact" id="contact" aria-labelledby="ct-h">
     <p class="cap" id="ct-h" style="margin:0">Users, partners, investors</p>
-    <p class="mail" id="mail">hello@theorai.ca</p>
+    <p class="mail" id="mail">hello@theorai.ai</p>
     <button class="copy" id="copy" type="button">Copy email</button>
     <span class="cap" id="copied" aria-live="polite"></span>
   </section>
@@ -306,7 +306,7 @@ footer{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;paddin
   var btn = document.getElementById('copy'), out = document.getElementById('copied'), mail = document.getElementById('mail');
   btn.addEventListener('click', function(){
     function sel(){ var rg = document.createRange(); rg.selectNodeContents(mail); var s = getSelection(); s.removeAllRanges(); s.addRange(rg); out.textContent = 'Selected. Press Ctrl or Cmd + C'; }
-    try { navigator.clipboard.writeText('hello@theorai.ca').then(function(){ out.textContent = 'Copied'; }, sel); }
+    try { navigator.clipboard.writeText('hello@theorai.ai').then(function(){ out.textContent = 'Copied'; }, sel); }
     catch(err){ sel(); }
   });
 })();
